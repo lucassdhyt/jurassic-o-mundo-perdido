@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore o mundo dos dinossauros e conheça os gigantes da pré-história.">
+    <title>JURASSIC | O Mundo Perdido</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="#inicio" class="logo">JURASSIC<span>.</span></a>
+
+        <button class="botao-menu" id="botaoMenu" aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <nav class="navegacao" id="menuNavegacao">
+            <a href="#inicio">INÍCIO</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#dinossauros">DINOSSAUROS</a>
+            <a href="#periodos">PERÍODOS</a>
+            <a href="#extincao">EXTINÇÃO</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destaque-principal" id="inicio">
+            <div class="camada-sobreposicao"></div>
+
+            <div class="conteudo-destaque">
+                <p class="subtitulo-destaque">UMA VIAGEM PELA PRÉ-HISTÓRIA</p>
+                <h1>O MUNDO <span>PERDIDO</span></h1>
+                <p class="descricao-destaque">
+                    Descubra os gigantes que dominaram a Terra
+                    milhões de anos antes da humanidade.
+                </p>
+                <a href="#dinossauros" class="botao-principal">EXPLORAR DINOSSAUROS</a>
+
+            </div>
+
+
+        </section>
+
+        <section class="introducao secao" id="sobre">
+            <div class="rotulo-secao">01 — CONHEÇA A HISTÓRIA</div>
+
+            <div class="grade-introducao">
+                <div>
+                    <h2>UMA ERA<br> <span>EXTRAORDINÁRIA</span></h2>
+                </div>
+
+                <div class="texto-introducao">
+                    <p>
+                        Há milhões de anos, muito antes do surgimento dos seres humanos,
+                        a Terra era dominada por criaturas impressionantes.
+                        Os dinossauros habitaram diferentes ambientes, desde florestas
+                        densas até regiões próximas aos oceanos.
+                    </p>
+                    <p>
+                        Alguns eram enormes herbívoros, enquanto outros eram
+                        predadores poderosos. Suas histórias ajudam os cientistas
+                        a compreender como a vida evoluiu em nosso planeta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="estatisticas">
+                <div class="estatistica">
+                    <strong>230</strong>
+                    <span>Milhões de anos atrás</span>
+                </div>
+                <div class="estatistica">
+                    <strong>165</strong>
+                    <span>Milhões de anos de domínio</span>
+                </div>
+                <div class="estatistica">
+                    <strong>66</strong>
+                    <span>Milhões de anos desde a extinção</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-dinossauros secao" id="dinossauros">
+            <div class="rotulo-secao">02 — OS GIGANTES DA TERRA</div>
+
+            <div class="cabecalho-secao">
+                <div>
+                    <h2>CONHEÇA OS <span>DINOSSAUROS</span></h2>
+                    <p>Explore algumas das espécies mais fascinantes da pré-história.</p>
+                </div>
+            </div>
+
+            <div class="grade-dinossauros">
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThrryRhAFywMDLuybQzrV2KsV4H-kl-9uCte9Kf80oRQ&s=10"
+                            alt="Tiranossauro Rex">
+                        <span class="numero-cartao">01</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">CARNÍVORO</span>
+                        <h3>TIRANOSSAURO REX</h3>
+                        <p>Um dos predadores mais conhecidos da história, com mandíbulas poderosas e grande porte.</p>
+                        <button class="botao-detalhes" data-dino="trex">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX483QeZfDqXjoKoHZa3lhDd7mHTDWFh7tkSFtvbD3Ig&s=10"
+                            alt="Triceratops">
+                        <span class="numero-cartao">02</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">HERBÍVORO</span>
+                        <h3>TRICERATOPS</h3>
+                        <p>Reconhecido pelos três chifres na cabeça e pela grande estrutura óssea atrás do crânio.</p>
+                        <button class="botao-detalhes" data-dino="triceratops">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMThRhJ76YZwv250jNG2UVpOyCeb17lHwxb7fZjFFmpA&s=10"
+                            alt="Espinossauro">
+                        <span class="numero-cartao">03</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">CARNÍVORO</span>
+                        <h3>ESPINOSSAURO</h3>
+                        <p>Um grande predador conhecido pela estrutura em forma de vela nas costas e sua relação com
+                            ambientes aquáticos.</p>
+                        <button class="botao-detalhes" data-dino="spinosaurus">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDMkG0L3ex72FXHQ1nb1V20Jbu70DO4nEM9iOYkSDR8Q&s=10"
+                            alt="Estegossauro">
+                        <span class="numero-cartao">04</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">HERBÍVORO</span>
+                        <h3>ESTEGOSSAURO</h3>
+                        <p>Possuía placas ósseas nas costas e espinhos na cauda, características marcantes de sua
+                            aparência.</p>
+                        <button class="botao-detalhes" data-dino="stegosaurus">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFn7Y_mEKZizMvfAf4n_HwMaKbddH-QkyMm_5YxZyUYQ&s=10"
+                            alt="Braquiossauro">
+                        <span class="numero-cartao">05</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">HERBÍVORO</span>
+                        <h3>BRAQUIOSSAURO</h3>
+                        <p>Um enorme dinossauro de pescoço comprido, com patas dianteiras maiores que as traseiras.</p>
+                        <button class="botao-detalhes" data-dino="brachiosaurus">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+                <article class="cartao-dino revelacao">
+                    <div class="imagem-cartao">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdtsf88USmknDkII0GyKNCE7b_JbLsk0EvytUfZcCtA&s=10"
+                            alt="Anquilossauro">
+                        <span class="numero-cartao">06</span>
+                    </div>
+                    <div class="conteudo-cartao">
+                        <span class="tipo-dino">HERBÍVORO</span>
+                        <h3>ANQUILOSSAURO</h3>
+                        <p>Seu corpo era protegido por placas ósseas e sua cauda possuía uma estrutura semelhante a um
+                            porrete.</p>
+                        <button class="botao-detalhes" data-dino="ankylosaurus">DESCOBRIR ESPÉCIE ↗</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="periodos secao" id="periodos">
+            <div class="rotulo-secao">03 — A ERA MESOZOICA</div>
+            <h2>TRÊS PERÍODOS.<br><span>UMA ERA INCRÍVEL.</span></h2>
+
+            <div class="grade-periodos">
+                <div class="cartao-periodo">
+                    <span>01</span>
+                    <h3>TRIÁSSICO</h3>
+                    <p>252 a 201 milhões de anos atrás.</p>
+                    <p>Os primeiros dinossauros surgiram durante esse período.</p>
+                </div>
+
+                <div class="cartao-periodo">
+                    <span>02</span>
+                    <h3>JURÁSSICO</h3>
+                    <p>201 a 145 milhões de anos atrás.</p>
+                    <p>Os dinossauros se diversificaram e ocuparam diferentes ambientes.</p>
+                </div>
+
+                <div class="cartao-periodo">
+                    <span>03</span>
+                    <h3>CRETÁCEO</h3>
+                    <p>145 a 66 milhões de anos atrás.</p>
+                    <p>Foi o último período da era dos dinossauros não aviários.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="extincao secao" id="extincao">
+            <div class="conteudo-extincao">
+                <div class="rotulo-secao">04 — O FIM DE UMA ERA</div>
+                <h2>O MISTÉRIO DA<br><span>EXTINÇÃO</span></h2>
+                <p>
+                    Há aproximadamente 66 milhões de anos, um grande asteroide
+                    atingiu a região onde hoje fica a Península de Yucatán,
+                    no México. O impacto provocou mudanças ambientais intensas
+                    e contribuiu para a extinção dos dinossauros não aviários.
+                </p>
+                <p>
+                    Apesar disso, nem todos desapareceram: as aves atuais
+                    são descendentes de dinossauros terópodes.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modalDino" aria-hidden="true">
+        <div class="conteudo-modal">
+            <button class="botao-fechar-modal" id="fecharModal" aria-label="Fechar">×</button>
+            <img id="imagemModal" src="" alt="">
+            <div class="informacoes-modal">
+                <span id="tipoModal" class="tipo-dino"></span>
+                <h2 id="tituloModal"></h2>
+                <p id="descricaoModal"></p>
+                <div class="curiosidade-modal">
+                    <strong>VOCÊ SABIA?</strong>
+                    <p id="fatoModal"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
